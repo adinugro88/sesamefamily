@@ -51,7 +51,7 @@ export default defineComponent({
   },
   computed: {
     tooltipPosition() {
-      return { top: '40%', left: '15%' };
+      return { top: '45%', left: '15%' };
     },
     buttonContainerStyle() {
       return {
@@ -97,7 +97,7 @@ export default defineComponent({
   background-color: blue;
   padding: 10px;
   color:white;
-  border-radius: 50px;
+  border-radius: 20px;
   font-weight: 900;
   width:200px;
   border: 5px solid black;
@@ -108,7 +108,7 @@ export default defineComponent({
   background-color: yellow;
   padding: 10px;
   color:black;
-  border-radius: 50px;
+  border-radius: 30px;
   font-weight: 900;
   width:200px;
   border: 5px solid black;
