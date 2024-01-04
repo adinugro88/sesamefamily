@@ -34,7 +34,7 @@ import HelloWorld from './components/HelloWorld.vue'
         </div>
       </button>
     </div>
-    <<img :src="gambar" style="width:300px;margin-top: 100px;" alt="" @click="reset">
+    <img :src="gambar" style="width:300px;margin-top: 100px;" alt="" @click="reset">
   </div>
 </template>
 
@@ -51,7 +51,7 @@ export default defineComponent({
   },
   computed: {
     tooltipPosition() {
-      return { top: '180px', left: '15%' };
+      return { top: '40%', left: '15%' };
     },
     buttonContainerStyle() {
       return {
@@ -86,7 +86,7 @@ export default defineComponent({
   background-color: red;
   padding: 10px;
   color:white;
-  border-radius: 50px;
+  border-radius: 10px;
   font-weight: 900;
   width:100px;
   border: 5px solid black;
@@ -138,12 +138,16 @@ export default defineComponent({
   width: 100%;
   height: 100vh;
 }
+h1{}
+
 
 body{
   background-image: url('https://img.freepik.com/premium-photo/blurred-colorful-wallpaper-background_976742-179.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-content: center;
+  text-align: center;
 }
 </style>
 
